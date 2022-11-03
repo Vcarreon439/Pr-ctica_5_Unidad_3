@@ -20,6 +20,25 @@ namespace Práctica_5_Unidad_3
         int m, mx, my;
         private void btnCalcular_Click(object sender, EventArgs e)
         {
+
+            dgvResultados.Rows.Clear();
+
+            int limite = int.Parse(txtLimite.Text);
+
+            Stack<int> lista = new Stack<int>();
+            Console.WriteLine(Fibonacci.CalcularRercursivo(limite));
+
+            Fibonacci.CalcularCicloFor(limite, ref lista);
+            int i = limite;
+
+            foreach (int item in lista)
+            {
+                dgvResultados.Rows.Add($"{i}", $"{item}");
+                i--;
+                Console.WriteLine(item);
+            }
+
+
             Console.WriteLine(Fibonacci.CalcularRercursivo(15));
         }
 
