@@ -37,10 +37,6 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.btnCalcular = new System.Windows.Forms.Button();
-            this.RE1 = new System.Windows.Forms.TabPage();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.RE2 = new System.Windows.Forms.TabPage();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnCerrar = new System.Windows.Forms.Button();
@@ -48,8 +44,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvResultados)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.RE1.SuspendLayout();
-            this.RE2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -100,8 +94,6 @@
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.RE1);
-            this.tabControl1.Controls.Add(this.RE2);
             this.tabControl1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.tabControl1.Location = new System.Drawing.Point(12, 36);
             this.tabControl1.Name = "tabControl1";
@@ -136,47 +128,6 @@
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = false;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
-            // 
-            // RE1
-            // 
-            this.RE1.Controls.Add(this.panel1);
-            this.RE1.Location = new System.Drawing.Point(4, 22);
-            this.RE1.Name = "RE1";
-            this.RE1.Padding = new System.Windows.Forms.Padding(3);
-            this.RE1.Size = new System.Drawing.Size(905, 425);
-            this.RE1.TabIndex = 0;
-            this.RE1.Text = "Representacion 1";
-            this.RE1.UseVisualStyleBackColor = true;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Black;
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.panel1.Location = new System.Drawing.Point(3, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(899, 419);
-            this.panel1.TabIndex = 0;
-            // 
-            // RE2
-            // 
-            this.RE2.Controls.Add(this.panel2);
-            this.RE2.Location = new System.Drawing.Point(4, 22);
-            this.RE2.Name = "RE2";
-            this.RE2.Size = new System.Drawing.Size(905, 425);
-            this.RE2.TabIndex = 2;
-            this.RE2.Text = "Representacion 2";
-            this.RE2.UseVisualStyleBackColor = true;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Black;
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(905, 425);
-            this.panel2.TabIndex = 0;
             // 
             // pictureBox2
             // 
@@ -250,8 +201,6 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            this.RE1.ResumeLayout(false);
-            this.RE2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -268,10 +217,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Col_Valor;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage RE1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TabPage RE2;
-        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label2;
